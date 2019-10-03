@@ -24,20 +24,20 @@ function createMap(earthquakes) {
     accessToken: API_KEY
   });
 
-  // Define a baseMaps object to hold our base layers
+  // Define a baseMaps object to hold base layers
   var baseMaps =
     {  
     "Light": lightmap,
     "Dark": darkmap
     };
 
-  // Create overlay object to hold our overlay layer
+  // Create overlay object to hold overlay layer
   var overlayMaps =
     {
     Earthquakes: earthquakes
     };
 
-  // Create our map
+  // Create map
   var myMap = L.map("map", {
     center: [37.6207251, -119.4836838],
     zoom: 5,
