@@ -8,3 +8,18 @@ body,
 html {
   height: 100%;
 }
+
+.info.legend.leaflet-control {
+  background-color: white;
+  line-height: px;
+  color: black;
+  width: 75px;
+}
+
+.legend i {
+  width: 28px;
+  height: 18px;
+  float: left;
+  margin-right: 12px;
+  opacity: 0.9;
+}
