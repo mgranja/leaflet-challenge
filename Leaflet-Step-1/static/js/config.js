@@ -1,5 +1,5 @@
 // API key
-const API_KEY = "pk.eyJ1IjoibWdyYW5qYSIsImEiOiJjazA5b3d6ZnUwMzZ5M2pxdnltenBzam1iIn0.dV2dG5jioT3G-4YLTWXQzQ";
+const API_KEY = "";
 const attribution = `
   Map data & copy;
   <a href="https://www.openstreetmap.org/">
